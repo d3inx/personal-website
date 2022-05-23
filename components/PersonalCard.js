@@ -19,7 +19,7 @@ const PersonalCard = () => {
           </div>
           <div className="font-ceraRoundProLight text-xl flex flex-col space-y-4">
             <span>Age: 18</span>
-            <span>Experience: 0.5 Year</span>
+            <span>Experience: 5 months</span>
             <span>Phone: +98 903 232 6619</span>
             <span>Email: mr.reza.rm8224@gmail.com</span>
             <span>Address: Iran,Shiraz</span>
