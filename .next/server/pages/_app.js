@@ -92,27 +92,21 @@ const Footer = ()=>{
 };
 /* harmony default export */ const components_Footer = (Footer);
 
-// EXTERNAL MODULE: ./components/ParticleBackground.js + 1 modules
-var ParticleBackground = __webpack_require__(734);
 ;// CONCATENATED MODULE: ./pages/_app.js
 
 
 
-
 function MyApp({ Component , pageProps  }) {
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx(ParticleBackground/* default */.Z, {}),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "text-base text-neutral-900 md:text-xl mx-auto flex flex-col items-center",
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx(Component, {
-                        ...pageProps
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx(components_Footer, {})
-                ]
-            })
-        ]
+    return /*#__PURE__*/ jsx_runtime_.jsx(jsx_runtime_.Fragment, {
+        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+            className: "text-base text-neutral-900 md:text-xl mx-auto flex flex-col items-center",
+            children: [
+                /*#__PURE__*/ jsx_runtime_.jsx(Component, {
+                    ...pageProps
+                }),
+                /*#__PURE__*/ jsx_runtime_.jsx(components_Footer, {})
+            ]
+        })
     });
 }
 /* harmony default export */ const _app = (MyApp);
@@ -239,24 +233,10 @@ module.exports = require("react");
 
 /***/ }),
 
-/***/ 753:
-/***/ ((module) => {
-
-module.exports = require("react-tsparticles");
-
-/***/ }),
-
 /***/ 997:
 /***/ ((module) => {
 
 module.exports = require("react/jsx-runtime");
-
-/***/ }),
-
-/***/ 47:
-/***/ ((module) => {
-
-module.exports = require("tsparticles");
 
 /***/ })
 
@@ -267,7 +247,7 @@ module.exports = require("tsparticles");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [505,664,734], () => (__webpack_exec__(408)));
+var __webpack_exports__ = __webpack_require__.X(0, [505,664], () => (__webpack_exec__(408)));
 module.exports = __webpack_exports__;
 
 })();
