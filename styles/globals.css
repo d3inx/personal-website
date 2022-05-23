@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'ceraRoundProBold';
+  src: url('./../public/fonts/CeraRoundProBlack.otf');
+}
+@font-face {
+  font-family: 'ceraRoundProNormal';
+  src: url('./../public/fonts/CeraRoundProMedium.otf');
+}
+@font-face {
+  font-family: 'ceraRoundProLight';
+  src: url('./../public/fonts/CeraRoundProRegular.otf');
+}
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: ceraRoundProNormal, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+#tsparticles canvas {
+  z-index: -100!important;
+}
