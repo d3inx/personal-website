@@ -4,15 +4,15 @@ const PersonalCard = () => {
       <div className="bg-neutral-100/50 backdrop-blur-sm ring-1 w-full lg:w-2/4 py-12 ring-neutral-300 text-neutral-900 rounded-xl flex flex-col md:flex-row items-start justify-between">
         <div className="w-full break-all h-full flex text-center md:pl-8  flex-col space-y-8 md:space-y-12  lg:space-y-20">
           <div className="">
-            <div className="font-ceraRoundProLight text-xl">
+            <div className="font-ceraRoundProLight text-xl lg:text-2xl">
               Hi I&apos;m <br />{" "}
-              <span className="font-ceraRoundProBold text-3xl">
+              <span className="font-ceraRoundProBold text-3xl lg:text-4xl">
                 Reza Manouchehri
               </span>
             </div>
-            <div className="text-lg text-neutral-800">Frontend Developer</div>
+            <div className="text-lg lg:text-xl text-neutral-800">Frontend Developer</div>
           </div>
-          <div className="font-ceraRoundProLight text-base flex flex-col space-y-4">
+          <div className="font-ceraRoundProLight text-base lg:text-xl flex flex-col space-y-4">
             <span>Age: 18</span>
             <span>Experience: 5 months</span>
             <span>Phone: +98 903 232 6619</span>
@@ -24,9 +24,9 @@ const PersonalCard = () => {
       <div className="bg-neutral-100/50 backdrop-blur-sm ring-1 w-full lg:w-4/5 mt-20 px-4 lg:px-12 py-12 ring-neutral-300 text-neutral-900 rounded-xl flex flex-col md:flex-row items-start justify-between">
         <div className="w-full break-all h-full flex text-center md:pl-8  flex-col space-y-8 md:space-y-10  lg:space-y-16">
           <div className="">
-            <div className="font-ceraRoundProBold text-3xl">Biography</div>
+            <div className="font-ceraRoundProBold text-3xl lg:text-4xl">Biography</div>
           </div>
-          <div className="font-ceraRoundProNormal text-base flex flex-col space-y-4 break-words">
+          <div className="font-ceraRoundProNormal text-base lg:text-xl flex flex-col space-y-4 break-words">
             <div className="capitalize">
               i&apos;m a junior frontend developer i start learning frontend two
               years ago. I am studying for an associate degree at Shahid Bahonar
