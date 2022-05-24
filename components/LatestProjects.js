@@ -38,16 +38,16 @@ const LatestProjects = () => {
   ]);
   return (
     <div className="container mx-auto flex flex-col items-center my-20 z-50">
-      <div className="lg:self-start text-center lg:text-left text-5xl lg:text-8xl text-neutral-900 font-ceraRoundProBold">
+      <div className="lg:self-start text-center lg:text-left text-5xl lg:text-8xl pb-8 text-neutral-900 font-ceraRoundProBold">
         Latest <br /> Projects{" "}
       </div>
       <div className="flex flex-wrap justify-between w-full lg:w-2/3">
         {
           projects.map(project => (
             <Link key={project.name} href={project.link}>
-              <a className="w-full md:w-1/2 lg:w-1/3 p-12 rounded-3xl">
+              <a className="w-1/2 lg:w-1/3 p-4 md:p-12 rounded-3xl">
               <Image className="rounded-t-3xl object-cover" src={project.img} width={200} height={150} layout='responsive' alt='' />
-              <div className="bg-neutral-100/70 py-2 rounded-b-3xl backdrop-blur-sm ring-1 ring-neutral-100 text-neutral-900 text-xl font-ceraRoundProBold text-center">{project.name}</div>
+              <div className="bg-neutral-100/70 py-2 rounded-b-3xl backdrop-blur-sm text-neutral-900 text-base font-ceraRoundProBold text-center">{project.name}</div>
             </a>
             </Link>
           ))
