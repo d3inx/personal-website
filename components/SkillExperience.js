@@ -118,7 +118,7 @@ const SkillExperience = () => {
           {experience.map((item) => (
             <div
               key={item.name}
-              className="flex bg-amber-400 backdrop-blur-sm ring-1 ring-amber-600 text-neutral-900 px-4 py-4 lg:py-8 rounded-lg "
+              className="flex bg-teal-400 backdrop-blur-sm ring-1 ring-teal-600 text-neutral-900 px-4 py-4 lg:py-8 rounded-lg "
             >
               <div className="text-base lg:text-lg flex items-center text-slate-600">{item.time}</div>
               <Link href={item.link}>

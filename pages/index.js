@@ -18,7 +18,7 @@ export default function Main() {
         ></meta>
         <meta property="og:title" content="وبسایت شخصی رضا منوچهری" />
         <meta property="og:site_name" content="سایت رضا منوچهری" />
-        <meta name="theme-color" content="#fbbf24"></meta>
+        <meta name="theme-color" content="#171717"></meta>
         <link
           rel="apple-touch-icon"
           sizes="180x180"
